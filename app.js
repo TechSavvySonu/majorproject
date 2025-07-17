@@ -122,9 +122,9 @@ app.use("/", userRouter);
 // });
 
 // -----------------------------------------------------------
-app.get("/", (req, res) => {
-  res.redirect("/listings");
-});
+// app.get("/", (req, res) => {
+//   res.redirect("/listings");
+// });
 
 //------------------------ Custom/Express Error Handling : ---------------------------------
 
